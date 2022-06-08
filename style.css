@@ -8,6 +8,7 @@
  }
 
  .container{
+    /*max-width: 1200px; PS: na avaliação está pedindo para colocarmos essa função, porém ela atrapalha na responsividade*/
     padding: 0 148px 79px;
  }
  
@@ -79,6 +80,7 @@
     min-width: 285px;
     border-radius: 8px;
     background-color: #fff;
+    margin-bottom: 16px;
 
     display: flex;
     flex-direction: column;
@@ -102,6 +104,13 @@
     margin: 26px auto;
     font-size: 16px;
   }
+  .products-flex li button:hover{
+    height: 52px;
+    background: #2e48ae;
+    border: 1.5px solid #2e48ae;
+  }
+
+
 
   .products-flex li span{
     font-weight: 600;
