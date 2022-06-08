@@ -3,6 +3,8 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     box-sizing: border-box;
+    background-color: #815252;
+    
  }
 
  .container{
@@ -43,7 +45,6 @@
     color: #585e65;
   }
   .menu-nav ul li a:hover {
-    text-decoration: none;
     color: #000000;
     font-weight: 600;
   }
@@ -64,5 +65,48 @@
     background-color: #2e48ae;
   }
 
+  .products-flex{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+  }
 
-    
+  .products-flex li{
+    height: 500px;
+    width: 374px;
+    border-radius: 8px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .products-flex li img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .products-flex li button{
+    display: block;
+    width: 335px;
+    height: 48px;
+    color: #fff;
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+    margin: 26px auto;
+    font-size: 16px;
+  }
+
+  .products-flex li span{
+    font-weight: 600;
+    margin-left: 21px;
+  }
+
+  .products-flex li h3{
+    margin: 46px 21px 20px 18px;
+  }
+
