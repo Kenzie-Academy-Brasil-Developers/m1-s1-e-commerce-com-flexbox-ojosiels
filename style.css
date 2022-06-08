@@ -3,7 +3,7 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     box-sizing: border-box;
-    background-color: #815252;
+    background-color: #F5F5F5;
     
  }
 
@@ -75,7 +75,8 @@
 
   .products-flex li{
     height: 500px;
-    width: 374px;
+    width: 24%;
+    min-width: 285px;
     border-radius: 8px;
     background-color: #fff;
 
@@ -91,9 +92,10 @@
 
   .products-flex li button{
     display: block;
-    width: 335px;
+    max-width: 335px;
     height: 48px;
     color: #fff;
+    padding: 0 30px;
     background: #4C6EF5;
     border: 1.5px solid #4C6EF5;
     border-radius: 8px;
